@@ -1,0 +1,12 @@
+# Java 的 编译产物
+out/
+*.class
+
+# IDE 的基础配置
+.vscode/
+.idea/
+
+ # 零时文件
+
+*.log
+*.temp
