@@ -22,8 +22,8 @@
 
 ## 开发进度
 - [√] 初始化项目
-- [ ] Student 数据模型
-- [ ] Repository 数据管理
+- [√] Student 数据模型
+- [√] Repository 数据管理
 - [ ] Analytics 成绩分析
 - [ ] MVC 命令行交互
 - [ ] 自动测试与 CI

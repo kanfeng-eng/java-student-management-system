@@ -53,6 +53,7 @@ public class AcceptanceTest {
     }
 
     // message是用于检验的方法
+    // 当 condition == false 时，会抛出 AssertionError，立即中断当前方法的正常执行
     private static void check(boolean condition, String message) {
         if (!condition) {
             throw new AssertionError("失败：" + message);

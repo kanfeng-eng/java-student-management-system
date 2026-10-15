@@ -3,6 +3,7 @@
 package com.studentmanager.model;
 
 // Java 21 之后可以使用 record  自动 -> 构造方法  访问方法 equals() hashCode() toString()
+// Java 的 record 没有 setX()，因为字段默认是 private final，不可重新赋值。
 
 public record Student(
         String id,
